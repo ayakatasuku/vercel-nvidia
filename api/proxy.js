@@ -56,7 +56,7 @@ export default async function handler(req, res) {
     messages: body.messages || [],
     temperature: body.temperature ?? 0.7,
     top_p: body.top_p ?? 0.95,
-    max_tokens: body.max_tokens || 1024,
+    max_tokens: body.max_tokens || 4096,
     stream: body.stream ?? false,
   };
 
