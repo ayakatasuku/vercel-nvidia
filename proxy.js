@@ -145,6 +145,9 @@ function modelsResponse() {
     "microsoft/phi-3-medium-128k-instruct",
     "google/gemma-2-27b-it",
     "nvidia/llama-3.1-nemotron-70b-instruct",
+    "z-ai/glm4.7",
+    "z-ai/glm5",
+    "deepseek-ai/deepseek-v3.2",
   ];
 
   return new Response(
